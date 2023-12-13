@@ -1,53 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <link href="img_map.map">
-        <title>Główna | WCode</title>
-    </head>
-    <body>
-        <div class="logo-div">
-            <table class="logo-table">
-                <tr class="logo-table">
-                    <td class="logo-table">
-                        <img src="logo.png" alt="logo" class="home-logo"/>
-                    </td>
-                    <td class="logo-table">
-                        <p class="logo-p">Główna strona</p>
-                    </td>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/standart.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="icon" href="img/logo.png">
+    <title>Home | WWiki </title>
+</head>
+<body>
+    <div class="header">
+        <a href="index.html" class="h-link"><span class="h-span">Home</span></a><span class="divider">|</span>
+        <a href="asm.html" class="h-link"><span class="h-span">ASM</span></a><span class="divider">|</span>
+        <a href="c.html" class="h-link"><span class="h-span">C</span></a><span class="divider">|</span>
+        <a href="py.html" class="h-link"><span class="h-span">Python</span></a><span class="divider">|</span>
+        <a href="js.html" class="h-link"><span class="h-span">JavaScript</span></a>
+    </div>
+    <div class="content">
+        <div class="content-text">
+            <p><span class="bold">WWiki</span> - to jest projekt ucznia 1C Akademii Rzemiosła i Przedsiębiorczości, który jest zrobiony dla przedmitów WI (<span class="italic">Witryny Internetowe</span>) i <span class="italic">Informatyka dla programisty</span>.</p>
+        </div>
+        <div class="content-table">
+            <div class="table-img"><img src="img/logo.png"></div>
+            <p class="img-footer">WWiki</p>
+            <table>
+                <tr>
+                    <td class="table-header">Pojawienie się</td>
+                    <td>Noć z 20.11.2023 do 21.11.2023</td>
                 </tr>
             </table>
         </div>
-        <hr>
-
-    <div class="selectSite">
-        <img src="mapa.png" width="643" height="542" border="0" usemap="#map" />
-
-        <map name="map">
-        <area shape="circle" coords="91,137,86" href="index_cpp.html" />
-        <area shape="circle" coords="517,114,113" href="index_asm.html" />
-        <area shape="circle" coords="191,440,70" href="https://youtube.com/" />
-        <area shape="circle" coords="561,460,81" href="https://www.wikipedia.org/" />
-        <area shape="circle" coords="330,269,38" href="index.html" />
-        </map>
-        
-        
     </div>
-
-        <!-- <div class="selectSite">
-            <table class="ss-table">
-                <tr>
-                    <td class="no-border"><a href="index_cpp.html"><img src="cpp-logo.png" class="ctj-logo"></a></td>
-                    <td class="no-border"><a href="index_asm.html"><img src="nasm-logo.png" class="ctj-logo"></a></td>
-                    <tr></tr>
-                    <td class="no-border">Co to jest C++</td>
-                    <td class="no-border">Co to jest Asembler?</td>
-                </tr>
-            </table>
-        </div> -->
-
-
-    </body>
+    <div class="footer">
+        <p>@zboxjpg | Hlushych K. | 21.11.20230</p>
+    </div>
+</body>
 </html>
