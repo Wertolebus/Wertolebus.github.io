@@ -1,0 +1,14 @@
+<img src="mapa.png" width="643" height="542" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.3 -->
+<!-- #$AUTHOR:user -->
+<area shape="circle" coords="91,137,86" href="index_cpp.html" />
+<area shape="circle" coords="517,114,113" href="index_asm.html" />
+<area shape="circle" coords="191,440,70" href="https://youtube.com/" />
+<area shape="circle" coords="561,460,81" href="https://www.wikipedia.org/" />
+<area shape="circle" coords="330,269,38" href="index.html" />
+</map>
